@@ -27,7 +27,7 @@ jobs:
       - name: Set up virtual environment and install dependencies
         run: |
           uv venv
-          source venv/bin/activate
+          source .venv/bin/activate
           uv sync
 
       - name: Upload artifact for deployment
